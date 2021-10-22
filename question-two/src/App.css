@@ -1,0 +1,13 @@
+.table {
+  width: 50%;
+  text-align: center;
+}
+
+.table > tbody > tr {
+  border: 1px solid #ccc;
+}
+
+.table-responsive {
+  margin: auto;
+  display: flex;
+}
