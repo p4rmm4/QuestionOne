@@ -1,0 +1,50 @@
+.App {
+  height: 100vh;
+}
+
+.col {
+  height: 100vh;
+}
+
+.col-width200px {
+  width: 200px !important;
+  border: 1px solid rebeccapurple;
+}
+
+.input-align {
+  width: 70%;
+}
+
+.col-width200px {
+  width: 200px !important;
+  height: 100vh;
+  border: 1px solid #000;
+  float: left;
+}
+
+.col-width300px {
+  width: 300px !important;
+  height: 100vh;
+  border: 1px solid #000;
+  float: right;
+}
+
+.col-middle {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid #000;
+}
+
+.row-align {
+  display: flex;
+}
+
+@media (max-width: 600px) {
+  .col-middle {
+    height: 100vh;
+    width: 550px;
+    overflow-x: scroll;
+    background-color: red;
+  }
+}
